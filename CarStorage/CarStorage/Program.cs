@@ -20,7 +20,7 @@ namespace CarStorage
                 Console.WriteLine("Please input car's color:");
                 cars[i].Color = Console.ReadLine();
             }
-
+            
             Console.WriteLine($"Source price: {cars[0].Price}; Price after sale: {cars[0].GetSale()}");
         }
     }
